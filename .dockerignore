@@ -1,0 +1,27 @@
+# Ignore the global node_modules folder at the root
+/node_modules
+
+# Ignore all other app directories' node_modules
+/apps/*/node_modules
+
+# Ignore all build output directories
+/apps/*/dist
+
+# Ignore the entire frontend project, as it's not needed for the backend build
+/apps/frontend
+
+# Ignore IDE and OS-specific files
+.vscode
+.idea
+*.DS_Store
+
+# Ignore local environment files
+.env
+/apps/*/.env
+
+# Ignore git files
+.git
+.gitignore
+
+# Ignore CI/CD configuration
+.github
